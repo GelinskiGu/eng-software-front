@@ -34,6 +34,14 @@ export default function Home() {
             </Link>
           </Button>
           <Button variant="ghost" asChild className="w-full text-2xl py-6">
+            <Link href="/comojogar">
+              <div className="flex gap-3">
+                <span>Como Jogar</span>
+                <img className="h-5" src="/assets/svgs/doubt.svg" />
+              </div>
+            </Link>
+          </Button>
+          <Button variant="ghost" asChild className="w-full text-2xl py-6">
             <Link href="/creditos">
               <div className="flex gap-3">
                 <span>Créditos</span>
